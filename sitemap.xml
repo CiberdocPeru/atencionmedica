@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Actualiza lastmod cuando cambies una página -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.atencionmedica.online/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+
+  <!-- Descomenta cada URL cuando la página exista y esté publicada:
+
+  <url>
+    <loc>https://www.atencionmedica.online/medico-a-domicilio-lima</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.atencionmedica.online/consulta-medica-online</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.atencionmedica.online/pediatra-a-domicilio-lima</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.atencionmedica.online/medico-a-domicilio-miraflores</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+
+  -->
+
+</urlset>
