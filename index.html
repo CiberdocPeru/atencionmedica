@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="es">
+
+<html lang="es-PE">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AMAD · Atención médica a domicilio y online en Lima,Perú</title>
-<meta name="description" content="Atención médica a domicilio y online para adultos y niños en Lima. Agenda tu cita en minutos, sin filas ni traslados.">
-<link rel="icon" 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Médico a domicilio en Lima | Consulta online | AMAD</title>
+  <meta name="description" content="Médico a domicilio y consulta online en Lima para adultos y niños. Dr. Suarez Alfaro, CMP 23338. Agenda tu cita por WhatsApp en minutos.">
+
+  
+  <link rel="canonical" href="https://atencionmedica.online/">
+
+  <!-- Indexación -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="AMAD · Atención médica a domicilio">
+  <meta property="og:title" content="Médico a domicilio y consulta online en Lima | AMAD">
+  <meta property="og:description" content="Atención médica a domicilio y por videollamada para adultos y niños en Lima. Agenda sin filas ni traslados.">
+  <meta property="og:url" content="https://atencionmedica,online/">
+  <!-- TODO: crea una imagen JPG o PNG de 1200x630 px (los GIF no se muestran bien) -->
+  <meta property="og:image" content="og-image.jpg">
+  <meta property="og:image:alt" content="AMAD · Atención médica a domicilio y online en Lima">
+
+  
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalBusiness",
+        "@id": "https://amad.pe/#negocio",
+        "name": "AMAD · Atención médica a domicilio",
+        "description": "Atención médica a domicilio y consulta online para adultos y niños en Lima, Perú.",
+        "url": "https://atencionmedica.online/",
+        "logo": "logo.png",
+        "image": "og-image.jpg",
+        "telephone": "+51992219206",
+        "medicalSpecialty": "PrimaryCare",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lima",
+          "addressCountry": "PE"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Lima"
+        },
+        "availableService": [
+          {
+            "@type": "MedicalProcedure",
+            "name": "Consulta médica a domicilio"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Consulta médica online por videollamada"
+          }
+        ],
+        "founder": { "@id": "https://atencionmedica.online/#doctor" },
+        "sameAs": [
+          "https://wa.me/51992219206",
+          "https://go.ivoox.com/sq/340"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://atencionmedica.online/#doctor",
+        "name": "Jorge Isaac Suarez Alfaro",
+        "alternateName": "Ciberdoc",
+        "jobTitle": "Médico cirujano",
+        "image": "doctor.jpg",
+        "worksFor": { "@id": "https://atencionmedica.online/#negocio" },
+        "identifier": {
+          "@type": "PropertyValue",
+          "name": "Colegio Médico del Perú (CMP)",
+          "value": "23338"
+        },
+        "knowsAbout": ["Atención médica a domicilio", "Telemedicina", "Salud familiar", "Comunicación médica"]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿En qué zonas hacen visitas a domicilio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atendemos en Lima. Escríbenos por WhatsApp con tu distrito y confirmamos la cobertura."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿A quiénes atiende el doctor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atiende a adultos y niños, tanto en visitas a domicilio como por consulta online."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué necesito para una consulta online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un celular o computadora con cámara, micrófono e internet estable. Te enviamos el enlace por WhatsApp."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo puedo coordinar mi cita?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Completa el formulario de la página o escríbenos por WhatsApp. Te confirmamos día y hora."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Atienden emergencias graves?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Ante una emergencia grave acude al servicio de emergencia más cercano o llama a los servicios de urgencia."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo reprogramar o cancelar mi cita?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Avísanos por WhatsApp con anticipación y reprogramamos tu cita."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" 
     href="AMAD.ico" 
     type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +148,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
+  <header>
   <div class="wrap nav">
     <a class="brand" href="#top"><img class="logo" src="logo.gif" alt="Logo AMAD" width="44" height="44"><span><b>AMAD</b><small>Atención médica a domicilio</small></span></a>
     <nav class="menu" aria-label="Principal">
@@ -30,8 +163,8 @@
   <div class="wrap">
     <div>
       <span class="pill"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.500 3 8 7 10 4-2 7-5.500 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg>Médico colegiado · CMP 23338</span>
-      <h1>La consulta que necesitas, <em>en tu casa</em> o en tu pantalla</h1>
-      <p class="lead">Atención médica a domicilio y online para adultos y niños en Lima. Agenda tu cita en minutos, sin filas ni traslados.</p>
+      <h1>Médico a domicilio y consulta online en Lima</h1>
+      <p class="lead">La consulta que necesitas, <em>en tu casa</em> o en tu pantalla. Agenda tu cita en minutos, sin filas ni traslados.</p>
       <div class="cta">
         <a class="btn" href="#agendar"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Agendar mi cita</a>
         <a class="btn mint" href="https://wa.me/51992219206?text=Hola%2C%20quisiera%20agendar%20una%20cita." target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.200-4A8 8 0 1 1 8 18.800L4 20Z"/></svg>Escribir por WhatsApp</a>
@@ -39,7 +172,7 @@
       <p class="loc"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.500"/></svg>Lima, Perú · Atención a adultos y niños</p>
     </div>
     <div>
-     <img src="AMAD.png" width:60% height:60% alt="AMAD · Atención médica a domicilio y online en Lima,Perú"></div>
+     <img src="AMAD.png"  width=60% alt="AMAD · Atención médica a domicilio y online en Lima,Perú"></div>
       
     </div>
   
@@ -183,7 +316,7 @@
 Se especializa en el sector de salud, comunicación médica, periodismo de salud y proyectos digitales (como Promosalud y Medipodcast)</p> 
   </div></div>
 
-  <div class="wrap legal"><span>© 2026 AMAD. Todos los derechos reservados.</span><span>En caso de emergencia grave, acude al servicio de emergencia más cercano.</span></div>
+  <div class="wrap legal"><span>© 2026 AMAD. Todos los derechos reservados. Lima, Perú.</span><span>En caso de emergencia grave, acude al servicio de emergencia más cercano.</span></div>
 </footer>
 
 <a class="wa-fab" href="https://wa.me/51992219206?text=Hola%2C%20quisiera%20agendar%20una%20cita." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2Zm5.800 14.200c-.2.700-1.300 1.300-1.800 1.300-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 1.900c.1.200.1.300 0 .500l-.3.400-.4.400c-.1.100-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.2.400-.2.600-.1l1.900.9c.2.100.4.200.5.300.1.200.1.800-.1 1.400Z"/></svg><span>WhatsApp</span></a>
