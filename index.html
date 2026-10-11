@@ -213,7 +213,7 @@
     <div class="sec-head"><p class="eyebrow">Cómo coordinar</p><h2>Tu cita, paso a paso</h2><p>El equipo confirma disponibilidad y detalles antes de la atención.</p></div>
     <ol class="steps">
       <li><div class="n">01</div><h3>Elige tu modalidad</h3><p>Decide si prefieres una visita a domicilio o una videoconsulta.</p></li>
-      <li><div class="n">02</div><h3>Agenda tu cita</h3><p>Llena el formulario o coordina directamente por WhatsApp.</p></li>
+      <li><div class="n">02</div><h3>Agenda tu cita</h3><p>Llena el formulario o  escribe directamente al WhatsApp.</p></li>
       <li><div class="n">03</div><h3>Recibe la confirmación</h3><p>Coordinamos contigo por WhatsApp los detalles de la cita.</p></li>
       <li><div class="n">04</div><h4>Recibe atención</h3><p>El doctor llega a tu casa o te espera en línea a la hora acordada.</p></li>
     </ol>
@@ -271,7 +271,7 @@
     </div>
     <form class="f" id="bookForm" novalidate>
       <label>Nombre del paciente<input name="nombre" autocomplete="name" required></label>
-      <label>Teléfono<input name="tel" type="tel" autocomplete="tel" placeholder="+51 999 999 999" required></label>
+      <label>Teléfono<span class="tel"><select id="cc" aria-label="Prefijo del país" autocomplete="tel-country-code"><option value="51" selected>Perú +51</option><option value="54">Argentina +54</option><option value="591">Bolivia +591</option><option value="55">Brasil +55</option><option value="1">Canadá +1</option><option value="56">Chile +56</option><option value="57">Colombia +57</option><option value="506">Costa Rica +506</option><option value="53">Cuba +53</option><option value="593">Ecuador +593</option><option value="503">El Salvador +503</option><option value="34">España +34</option><option value="1">Estados Unidos +1</option><option value="33">Francia +33</option><option value="49">Alemania +49</option><option value="502">Guatemala +502</option><option value="504">Honduras +504</option><option value="39">Italia +39</option><option value="52">México +52</option><option value="505">Nicaragua +505</option><option value="507">Panamá +507</option><option value="595">Paraguay +595</option><option value="1">Puerto Rico +1</option><option value="1">Rep. Dominicana +1</option><option value="44">Reino Unido +44</option><option value="598">Uruguay +598</option><option value="58">Venezuela +58</option></select><input id="t" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="999 999 999" aria-label="Número de teléfono"></span></label>
       <label>Modalidad<select name="modalidad" id="modalidad"><option>A domicilio</option><option>Online</option></select></label>
       <label>Tipo de paciente<select name="tipo"><option>Adulto</option><option>Niño</option></select></label>
       <label class="full" id="distritoBox">Distrito y dirección<input name="direccion" id="direccion" placeholder="Ej. Miraflores, Av. Larco 123"></label>
