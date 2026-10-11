@@ -52,6 +52,30 @@ header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px s
 .float b{display:block;font-weight:500}
 .float span{color:var(--muted);font-size:.74rem}
 
+
+/* wipe */
+.amad-reveal{
+  width:min(60%,360px);
+  justify-self:center;
+  overflow:hidden;
+  clip-path:inset(0 100% 0 0);
+  animation:amad-wipe 1.2s ease-out .2s forwards;
+}
+.amad-reveal img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+@keyframes amad-wipe{
+  to{clip-path:inset(0 0 0 0)}
+}
+@media(prefers-reduced-motion:reduce){
+  .amad-reveal{
+    animation:none;
+    clip-path:none;
+  }
+}
+
 /* stats */
 .stats{background:var(--teal);color:#fff;padding:34px 0}
 .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
@@ -169,4 +193,65 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
   .steps,.f{grid-template-columns:1fr}
   .f{padding:22px 18px}
   .wa-fab span{display:none}.wa-fab{padding:14px}
+}
+
+
+:root {
+  --depth-shadow: 0 10px 0 rgba(22, 48, 45, .12), 0 16px 24px -12px rgba(22, 48, 45, .32);
+  --depth-shadow-hover: 0 13px 0 rgba(22, 48, 45, .12), 0 22px 30px -12px rgba(22, 48, 45, .34);
+}
+
+/* Buttons */
+.btn,
+.wa-fab {
+  transform: translateY(0);
+  box-shadow: 0 5px 0 rgba(22, 48, 45, .22), 0 9px 16px -7px rgba(22, 48, 45, .38), inset 0 1px 0 rgba(255,255,255,.28);
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+.btn:hover,
+.wa-fab:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 rgba(22, 48, 45, .20), 0 14px 22px -7px rgba(22, 48, 45, .38), inset 0 1px 0 rgba(255,255,255,.32);
+  filter: brightness(1.04);
+}
+.btn:active,
+.wa-fab:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(22, 48, 45, .22), 0 4px 8px -5px rgba(22, 48, 45, .35), inset 0 1px 0 rgba(255,255,255,.2);
+}
+
+/* Content blocks */
+.svc,
+.pcard,
+.steps li,
+.dcard,
+.faq-list,
+.f,
+.band {
+  box-shadow: var(--depth-shadow);
+  border-top-color: rgba(255,255,255,.9);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.svc:hover,
+.pcard:hover,
+.steps li:hover,
+.dcard:hover,
+.faq-list:hover,
+.f:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--depth-shadow-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .wa-fab,
+  .svc,
+  .pcard,
+  .steps li,
+  .dcard,
+  .faq-list,
+  .f,
+  .band {
+    transition: none;
+  }
 }
