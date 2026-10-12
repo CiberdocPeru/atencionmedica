@@ -1,0 +1,17 @@
+# AMAD · Atención médica a domicilio
+
+> AMAD es un servicio de atención médica a domicilio y por videollamada en Lima, Perú, a cargo del Dr. Jorge Isaac Suarez Alfaro (CMP 23338), médico cirujano colegiado. Atiende a adultos y niños. No atiende emergencias graves.
+
+## Datos clave
+- Servicios: consulta médica a domicilio en Lima; consulta online por videollamada
+- Pacientes: adultos y niños
+- Zona: Lima, Perú (la cobertura por distrito se confirma por WhatsApp)
+- Contacto y citas: WhatsApp +51 992 219 206 (https://wa.me/51992219206)
+
+## Páginas
+- [Inicio](https://www.atencionmedica.online/)
+- [Servicios: médico a domicilio y consulta online](https://www.atencionmedica.online/servicios.html)
+- [Pacientes: adultos y niños](https://www.atencionmedica.online/pacientes.html)
+- [Cómo agendar una cita](https://www.atencionmedica.online/cita.html)
+- [Dr. Jorge Isaac Suarez Alfaro, médico colegiado](https://www.atencionmedica.online/medico.html)
+- [Preguntas frecuentes](https://www.atencionmedica.online/preguntas.html)
