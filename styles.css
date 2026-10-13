@@ -255,13 +255,7 @@ footer{border-top:1px solid var(--line);background:var(--bg)}
 /* ===== Teléfono: prefijo + número en una fila ===== */
 .tel{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr);gap:8px}
 
-/* ===== Navegación móvil: franja deslizable en lugar de ocultar el menú ===== */
-@media(max-width:900px){
-  .nav{flex-wrap:wrap;height:auto;padding-top:8px;padding-bottom:0}
-  .menu{display:flex;order:3;width:100%;overflow-x:auto;gap:20px;padding:8px 0 10px;white-space:nowrap;-webkit-overflow-scrolling:touch}
-  html{scroll-padding-top:120px}
-}
-.menu a[aria-current="page"]{color:var(--teal);font-weight:500}
+
 
 /* ===== Migas de pan y cabecera de página ===== */
 .crumbs{font-size:.78rem;color:var(--muted);text-align:center;padding:22px 0 0}
